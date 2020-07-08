@@ -1,6 +1,9 @@
-// Comentário para fazer uma atualização do github -> pc local
+import React from 'react'
 
-if(!process.env.PWD){require('dotenv').config();}
-
-console.log('Senha é: '+process.env.USERDB);
-console.log("Oi");
+export default function index() {
+    return (
+        <div>
+            <h1>Hello Heroku</h1>
+        </div>
+    )
+}
